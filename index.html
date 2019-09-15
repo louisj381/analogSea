@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AnalogSea Sign Up</title>
+    <meta name="description" content="Sign up for AnalogSea">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <img class="logo" src="images/logo.png" />
+
+    <form action="/signup" method="post">
+        <fieldset class="SignUp">
+            <legend>Sign Up</legend>
+            <label for="email">Email<input type="email" id="email" name="email" placeholder="foo@bar.com"
+                    required></label>
+
+            <label for="psswrd">Password<input type="password" id="psswrd" name="password" placeholder="1234passw0rd"
+                    required></label>
+        </fieldset>
+
+        <input type="submit" value="Sign up">
+        <a href="/forgot-password/new">Forgot password?</a>
+    </form>
+    <p>Already have an account? <a href="/login">Log in</a></p>
+</body>
+
+</html>

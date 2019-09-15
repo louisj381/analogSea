@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    margin-top: 100px;
+}
+
+form {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 40px;
+    border-radius: 2px;
+}
+
+fieldset {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+legend {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    border: 2px solid gray;
+    padding: 15px;
+}
+
+input[type=submit] {
+    background-color: lightgreen;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+form a {
+    display: block;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
